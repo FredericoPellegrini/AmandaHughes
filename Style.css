@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar .nome a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.toolbar .nome {
+    font-family: 'Handjet', cursive;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar_options{                                                                                       
+    font-size: 13px;
+    margin-right: 25px;                                                         
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.toolbar_options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar_options li {
+    display: inline-block;
+}
+
+.toolbar_options li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.toolbar_options li a:hover {
+    background-color: #cccccc;
+}
+
+
+
+.presentation{
+    background-color: red;
+}
