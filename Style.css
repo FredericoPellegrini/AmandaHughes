@@ -3,15 +3,24 @@ body {
     padding: 0;
 }
 
+.nome0{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+
 .toolbar .nome a {
     text-decoration: none;
     color: #000000;
 }
 
 .toolbar .nome {
-    font-family: 'Handjet', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 50px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .toolbar {
@@ -21,7 +30,7 @@ body {
 }
 
 .toolbar_options{                                                                                       
-    font-size: 13px;
+    font-size: 16px;
     margin-right: 25px;                                                         
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +58,24 @@ body {
     background-color: #cccccc;
 }
 
+.textoapresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.95;
+    margin-left: 255px;
+    margin-top: 155px;
+}
 
+
+.textoapresentacao:hover{
+    background-color: #65974c;
+}
 
 .presentation .img{
     background-image: url(img/dra.jpg);
@@ -60,14 +86,64 @@ body {
     justify-content: left;
 }
 
-.presentation .textoapresentacao{
-    margin-top: 90px;
-    margin-left: 100px;
-    height: 175px;
-    width: 340px;
-    background-color: red;
-}
 
 .presentation .textoapresentacao p, h1{
-    margin: 30px;
+    margin: 15px;
+}
+
+.textoapresentacao h1{
+    font-family: 'Poppins', sans-serif;  
+    align-items: center;
+    color:#000000;
+    font-weight: bold;
+    margin: 0;
+}
+
+.textoapresentacao p{
+    font-family: 'Poppins', sans-serif;  
+    text-align: justify;
+    font-size: 17px;
+}
+
+.img a{
+    text-decoration: none;
+    color: #000000;
+    height: 350px;
+}
+
+
+
+
+.entradaemail{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+}
+
+.caixaentrada{
+    display: flex;
+    flex-direction: column;
+    background-color: #e3ecf3;
+    font-family: 'Poppins', sans-serif;  
+    align-items: center;
+    padding-bottom: 55px;
+    padding-top: 25px;
+}
+
+.email{
+    background-color: #FFFFFF;
+    height: 35px;
+    width: 500px;
+}
+
+.botao{
+    height: 41px;
+    background-color: #FFFFFF;
+    color: #000000;
 }
