@@ -51,6 +51,23 @@ body {
 
 
 
-.presentation{
+.presentation .img{
+    background-image: url(img/dra.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: left;
+}
+
+.presentation .textoapresentacao{
+    margin-top: 90px;
+    margin-left: 100px;
+    height: 175px;
+    width: 340px;
     background-color: red;
+}
+
+.presentation .textoapresentacao p, h1{
+    margin: 30px;
 }
