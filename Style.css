@@ -55,29 +55,40 @@ body {
 }
 
 .toolbar_options li a:hover {
-    background-color: #cccccc;
+    background-color: #65974c;
 }
 
-.textoapresentacao{
+.textoapresentacao {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 275px;
     width: 300px;
     background-color: whitesmoke;
     border-radius: 10px;
     opacity: 0.95;
     margin-left: 255px;
     margin-top: 155px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
 }
 
 
-.textoapresentacao:hover{
+
+.textoapresentacao:hover {
     background-color: #65974c;
 }
 
-.presentation .img{
+.textoapresentacao strong {
+
+    padding: 5px 15px;
+    position: relative;
+    top: -14px;
+}
+
+.presentation {
     background-image: url(img/dra.jpg);
     background-position: center;
     background-size: cover;
@@ -91,13 +102,18 @@ body {
     margin: 15px;
 }
 
-.textoapresentacao h1{
+.textoapresentacao h1 {
     font-family: 'Poppins', sans-serif;  
     align-items: center;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
 }
+
 
 .textoapresentacao p{
     font-family: 'Poppins', sans-serif;  
