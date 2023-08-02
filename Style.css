@@ -209,3 +209,44 @@ body {
     font-size: 22px;
     text-align: center;
 }
+
+.map{ 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    padding-bottom: 150px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;  
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.agende, .endereco {
+    line-height: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.copy{
+    border-top: 1px solid #444444;
+    color:#b4b4b4
+}
+
